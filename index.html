@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+
+    <div id="upload-page" class="active">
+      <div class="img-background" style="background-image: url(assets/bg-plain.png)"></div>
+
+      <button id="upload-button"></button>
+      <input type="file" id="upload-input" accept="image/*">
+    </div>
+    <div id="spin-page">
+      <div class="img-background" style="background-image: url(assets/bg-circle.png)"></div>
+      <div id="canvas"></div>
+      <div id="circle-image-container"></div>
+    </div>
+
+    <script src="p5.min.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
